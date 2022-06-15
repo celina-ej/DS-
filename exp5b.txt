@@ -1,0 +1,45 @@
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice1
+
+Enter Value to Insert :45
+
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice1
+
+Enter Value to Insert :34
+
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice1
+
+Enter Value to Insert :78
+
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice2
+
+45Dequeued
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice3
+
+Size of Queue is2
+Elements are :	34	78
+1.Enqueue
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice4
+Exit..

@@ -1,0 +1,124 @@
+1.Enqueue
+2.Dequeue
+3.Display
+4.Empty or Full
+5.Exit
+Enter your choice1
+
+Enter Value to Insert :45
+
+45 Enqueued
+1.Enqueue
+2.Dequeue
+3.Display
+4.Empty or Full
+5.Exit
+Enter your choice1
+
+Enter Value to Insert :67
+
+67 Enqueued
+1.Enqueue
+2.Dequeue
+3.Display
+4.Empty or Full
+5.Exit
+Enter your choice1
+
+Enter Value to Insert :34
+
+34 Enqueued
+1.Enqueue
+2.Dequeue
+3.Display
+4.Empty or Full
+5.Exit
+Enter your choice2
+
+ Dequeued
+1.Enqueue
+2.Dequeue
+3.Display
+4.Empty or Full
+5.Exit
+Enter your choice3
+
+67
+34
+1.Enqueue
+2.Dequeue
+3.Display
+4.Empty or Full
+5.Exit
+Enter your choice4
+
+Stack is neither full nor empty
+1.Enqueue
+2.Dequeue
+3.Display
+4.Empty or Full
+5.Exit
+Enter your choice2
+
+ Dequeued
+1.Enqueue
+2.Dequeue
+3.Display
+4.Empty or Full
+5.Exit
+Enter your choice2
+
+ Dequeued
+1.Enqueue
+2.Dequeue
+3.Display
+4.Empty or Full
+5.Exit
+Enter your choice4
+
+Stack is empty
+1.Enqueue
+2.Dequeue
+3.Display
+4.Empty or Full
+5.Exit
+Enter your choice1
+
+Enter Value to Insert :1
+
+1 Enqueued
+1.Enqueue
+2.Dequeue
+3.Display
+4.Empty or Full
+5.Exit
+Enter your choice1
+
+Enter Value to Insert :2
+
+2 Enqueued
+1.Enqueue
+2.Dequeue
+3.Display
+4.Empty or Full
+5.Exit
+Enter your choice1
+
+Enter Value to Insert :3
+
+3 Enqueued
+1.Enqueue
+2.Dequeue
+3.Display
+4.Empty or Full
+5.Exit
+Enter your choice4
+
+Stack is neither full nor empty
+1.Enqueue
+2.Dequeue
+3.Display
+4.Empty or Full
+5.Exit
+Enter your choice5
+Exit..
