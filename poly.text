@@ -1,0 +1,206 @@
+poly.c: In function ‘main’:
+poly.c:11:2: error: expected ‘;’, identifier or ‘(’ before ‘struct’
+   11 |  struct node *head1=NULL,*pos1=NULL,*tail1=NULL,*head2=NULL,*pos2=NULL,*tail2=NULL;
+      |  ^~~~~~
+poly.c:31:4: error: ‘tail’ undeclared (first use in this function); did you mean ‘tail2’?
+   31 |    tail->next=(struct node*)malloc(sizeof(*struct node));
+      |    ^~~~
+      |    tail2
+poly.c:31:4: note: each undeclared identifier is reported only once for each function it appears in
+poly.c:31:44: error: expected expression before ‘struct’
+   31 |    tail->next=(struct node*)malloc(sizeof(*struct node));
+      |                                            ^~~~~~
+poly.c:52:44: error: expected expression before ‘struct’
+   52 |    tail->next=(struct node*)malloc(sizeof(*struct node));
+      |                                            ^~~~~~
+poly.c:63:6: error: ‘head3’ undeclared (first use in this function); did you mean ‘head2’?
+   63 |   if(head3==NULL)
+      |      ^~~~~
+      |      head2
+poly.c:68:4: error: ‘pos3’ undeclared (first use in this function); did you mean ‘pos2’?
+   68 |    pos3=head2;
+      |    ^~~~
+      |    pos2
+poly.c:69:4: error: ‘tail3’ undeclared (first use in this function); did you mean ‘tail2’?
+   69 |    tail3=head3;
+      |    ^~~~~
+      |    tail2
+student@node2:~/Documents/celina$ gcc poly.c
+poly.c: In function ‘main’:
+poly.c:31:4: error: ‘tail’ undeclared (first use in this function); did you mean ‘tail3’?
+   31 |    tail->next=(struct node*)malloc(sizeof(*struct node));
+      |    ^~~~
+      |    tail3
+poly.c:31:4: note: each undeclared identifier is reported only once for each function it appears in
+poly.c:31:44: error: expected expression before ‘struct’
+   31 |    tail->next=(struct node*)malloc(sizeof(*struct node));
+      |                                            ^~~~~~
+poly.c:52:45: error: expected expression before ‘struct’
+   52 |    tail2->next=(struct node*)malloc(sizeof(*struct node));
+      |                                             ^~~~~~
+student@node2:~/Documents/celina$ gcc poly.c
+poly.c: In function ‘main’:
+poly.c:31:45: error: expected expression before ‘struct’
+   31 |    tail1->next=(struct node*)malloc(sizeof(*struct node));
+      |                                             ^~~~~~
+poly.c:52:45: error: expected expression before ‘struct’
+   52 |    tail2->next=(struct node*)malloc(sizeof(*struct node));
+      |                                             ^~~~~~
+student@node2:~/Documents/celina$ gcc poly.c
+student@node2:~/Documents/celina$ ./a.out
+
+Enter terms of each polynomial from largest power to smallest power
+Enter largest power value out of both polynomials:2
+Entering terms of first polynomial
+Enter coefficient for x^2:1
+Segmentation fault (core dumped)
+student@node2:~/Documents/celina$ gcc poly.c
+student@node2:~/Documents/celina$ ./a.out
+
+Enter terms of each polynomial from largest power to smallest power
+Enter largest power value out of both polynomials:2
+Entering terms of first polynomial
+Enter coefficient for x^2:1
+
+Enter coefficient for x^1:2
+
+Enter coefficient for x^0:3
+Entering terms of second polynomial
+Enter coefficient for x^2:1
+Segmentation fault (core dumped)
+student@node2:~/Documents/celina$ gcc poly.c
+student@node2:~/Documents/celina$ ./a.out
+
+Enter terms of each polynomial from largest power to smallest power
+Enter largest power value out of both polynomials:2
+Entering terms of first polynomial
+Enter coefficient for x^2:1
+
+Enter coefficient for x^1:2
+
+Enter coefficient for x^0:3
+Entering terms of second polynomial
+Enter coefficient for x^2:1
+
+Enter coefficient for x^1:2
+
+Enter coefficient for x^0:3
+
+ Sum of polynomials is 1x^2+1x^2+1x^2
+student@node2:~/Documents/celina$ gcc poly.c
+student@node2:~/Documents/celina$ ./a.out
+
+Enter terms of each polynomial from largest power to smallest power
+Enter largest power value out of both polynomials:3
+Entering terms of first polynomial
+Enter coefficient for x^3:1
+
+Enter coefficient for x^2:2
+
+Enter coefficient for x^1:3
+
+Enter coefficient for x^0:4
+Entering terms of second polynomial
+Enter coefficient for x^3:1
+
+Enter coefficient for x^2:2
+
+Enter coefficient for x^1:3
+
+Enter coefficient for x^0:4
+
+ Sum of polynomials is 1x^3+2x^2+3x^1+4x^0
+student@node2:~/Documents/celina$ gcc poly.c
+poly.c: In function ‘main’:
+poly.c:84:11: warning: too many arguments for format [-Wformat-extra-args]
+   84 |    printf("%d\n",pos3->data1,pos3->data2);
+      |           ^~~~~~
+student@node2:~/Documents/celina$ gcc poly.c
+student@node2:~/Documents/celina$ ./a.out
+
+Enter terms of each polynomial from largest power to smallest power
+Enter largest power value out of both polynomials:3 
+Entering terms of first polynomial
+Enter coefficient for x^3:1
+
+Enter coefficient for x^2:2
+
+Enter coefficient for x^1:3
+
+Enter coefficient for x^0:4
+Entering terms of second polynomial
+Enter coefficient for x^3:1
+
+Enter coefficient for x^2:2
+
+Enter coefficient for x^1:3
+
+Enter coefficient for x^0:4
+
+ Sum of polynomials is 1x^3+2x^2+3x^1+4
+student@node2:~/Documents/celina$ gcc poly.c
+student@node2:~/Documents/celina$ ./a.out
+
+Enter terms of each polynomial from largest power to smallest power
+Enter largest power value out of both polynomials:2
+Entering terms of first polynomial
+Enter coefficient for x^2:1
+
+Enter coefficient for x^1:2
+
+Enter coefficient for x^0:3
+Entering terms of second polynomial
+Enter coefficient for x^2:1
+
+Enter coefficient for x^1:2
+
+Enter coefficient for x^0:3
+246
+ Sum of polynomials is 1x^2+2x^1+3
+student@node2:~/Documents/celina$ gcc poly.c
+student@node2:~/Documents/celina$ ./a.out
+
+Enter terms of each polynomial from largest power to smallest power
+Enter largest power value out of both polynomials:2
+Entering terms of first polynomial
+Enter coefficient for x^2:1
+
+Enter coefficient for x^1:2
+
+Enter coefficient for x^0:3
+Entering terms of second polynomial
+Enter coefficient for x^2:1
+
+Enter coefficient for x^1:2
+
+Enter coefficient for x^0:3
+246
+ Sum of polynomials is 2x^2+4x^1+6
+student@node2:~/Documents/celina$ gcc poly.c
+student@node2:~/Documents/celina$ ./a.out
+
+Enter terms of each polynomial from largest power to smallest power
+Enter largest power value out of both polynomials:4
+Entering terms of first polynomial
+Enter coefficient for x^4:1
+
+Enter coefficient for x^3:2
+
+Enter coefficient for x^2:3
+
+Enter coefficient for x^1:4
+
+Enter coefficient for x^0:5
+Entering terms of second polynomial
+Enter coefficient for x^4:5
+
+Enter coefficient for x^3:4
+
+Enter coefficient for x^2:3
+
+Enter coefficient for x^1:2 
+
+Enter coefficient for x^0:1
+66666
+ Sum of polynomials is 6x^4+6x^3+6x^2+6x^1+6
+
